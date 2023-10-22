@@ -1,8 +1,10 @@
-### 代码随想录训练营第一天|704.二分查找、27.移除元素
+## 代码随想录训练营第一天|704.二分查找、27.移除元素
 
-[LeetCode 704 二分查找](https://leetcode.cn/problems/binary-search/description/)
+### [LeetCode 704 二分查找](https://leetcode.cn/problems/binary-search/description/)
 
 二分法的前提： **有序数组，数组无重复元素**.
+
+**补充：循环不变量：区间的定义**
 
 **tips：** 
 
@@ -58,7 +60,7 @@ public:
 
 
 
-[LeetCode 27 移除元素](https://leetcode.cn/problems/remove-element/description/)
+### [LeetCode 27 移除元素](https://leetcode.cn/problems/remove-element/description/)
 
 方法一：自己的方法
 
