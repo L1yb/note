@@ -13,3 +13,8 @@ git pull 失败的原因是，远程库和本地库不一致，比如分支结�
 
 
 git checkout [分支] 切换/创建分支
+
+问题：
+
+1、Changes not staged for commit:
+
