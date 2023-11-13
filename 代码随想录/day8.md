@@ -78,6 +78,7 @@ public:
 
 
 
+
 ## [151. 反转字符串中的单词 - 力扣（LeetCode）](https://leetcode.cn/problems/reverse-words-in-a-string/)
 
 **利用额外空间：**
@@ -142,6 +143,10 @@ public:
 1. 去除多余空格
 2. 反转整个字符串，使用reverse（），语序和单词都反过来了。
 3. 正向遍历，每次遇到空格，或者遍历到结尾，将字串再次反转，单词就正过来了
+
+
+
+
 
 
 
