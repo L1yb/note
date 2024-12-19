@@ -2,19 +2,24 @@
 
 ## 常用命令
 
-git remote 查看远程库
+git add .
 
-git fetch [远程库别名] 获取远程库
+git commit -m " "
 
-git merge [alias]/[branch]  将branch合并到当前分支
+查看远程库
+git remote -v
 
+获取远程库
+git fetch [远程库别名]   
 
+将branch合并到当前分支
+git merge [alias]/[branch]  
 
+切换/创建分支
+git checkout [分支] 
 
-
-git checkout [分支] 切换/创建分支
-
-git branck 查看分支列表
+查看分支列表
+git branck
 
 ## 常见问题
 
