@@ -42,7 +42,20 @@ git branck
 
 3. fatal: unable to acces
 
-编辑代理服务器，设置代理ip 127.0.0.1 port 7890
+- 编辑代理服务器，设置代理ip 127.0.0.1   port 7890
 
 [完美解决 git 报错 “fatal: unable to access ‘https://github.com/.../.git‘: Recv failure Connection was rese-CSDN博客](https://blog.csdn.net/qq_43546721/article/details/139506583)
 
+- 设置git使用本地代理
+
+```bash
+git config --global http.proxy http://127.0.0.1:7890
+```
+
+
+
+- 检查是否设置成功
+
+```bash
+git config --global -l
+```
