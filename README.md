@@ -52,10 +52,21 @@ git branck
 git config --global http.proxy http://127.0.0.1:7890
 ```
 
-
-
 - 检查是否设置成功
 
 ```bash
 git config --global -l
 ```
+
+4. error：本地未保存
+
+   ```bash 
+   git stash //备份到本地git栈
+   git pull
+   git stash pop //从git栈获取最近一次stash的内容，回复工作区的内容，删除栈中对应的stash
+   ```
+
+   具体使用方法和使用场景：
+
+   假如代码在commit 之后做了修改，或者理解为新写的代码还没来得及（没必要）commit，假如叫**状态1**，但是这时候需要pull代码进行修改：
+   这时候git stash 会保存当前还没commit的状态（正在写的**状态1**），然后pull，会替换当前代码，叫**状态2**，pull下来的代码完成以后，想要回复刚才的**状态1**，就使用git stash pop，这时候就会恢复之前**状态1**，并且删除git本地栈暂存的**状态1**
